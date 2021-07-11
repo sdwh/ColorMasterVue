@@ -59,7 +59,6 @@ export default {
       this.colorname = option.colorname
       this.jamming = _.shuffle(option.jamming)
 
-      alert(this.$refs.buttonGroups.message);
     }
   }
 };
