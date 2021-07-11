@@ -1,0 +1,594 @@
+[
+    {
+        "color": "aliceblue",
+        "rgb": "#F0F8FF"
+    },
+    {
+        "color": "antiquewhite",
+        "rgb": "#FAEBD7"
+    },
+    {
+        "color": "aqua",
+        "rgb": "#00FFFF"
+    },
+    {
+        "color": "aquamarine",
+        "rgb": "#7FFFD4"
+    },
+    {
+        "color": "azure",
+        "rgb": "#F0FFFF"
+    },
+    {
+        "color": "beige",
+        "rgb": "#F5F5DC"
+    },
+    {
+        "color": "bisque",
+        "rgb": "#FFE4C4"
+    },
+    {
+        "color": "black",
+        "rgb": "#000000"
+    },
+    {
+        "color": "blanchedalmond",
+        "rgb": "#FFEBCD"
+    },
+    {
+        "color": "blue",
+        "rgb": "#0000FF"
+    },
+    {
+        "color": "blueviolet",
+        "rgb": "#8A2BE2"
+    },
+    {
+        "color": "brown",
+        "rgb": "#A52A2A"
+    },
+    {
+        "color": "burlywood",
+        "rgb": "#DEB887"
+    },
+    {
+        "color": "cadetblue",
+        "rgb": "#5F9EA0"
+    },
+    {
+        "color": "chartreuse",
+        "rgb": "#7FFF00"
+    },
+    {
+        "color": "chocolate",
+        "rgb": "#D2691E"
+    },
+    {
+        "color": "coral",
+        "rgb": "#FF7F50"
+    },
+    {
+        "color": "cornflowerblue",
+        "rgb": "#6495ED"
+    },
+    {
+        "color": "cornsilk",
+        "rgb": "#FFF8DC"
+    },
+    {
+        "color": "crimson",
+        "rgb": "#DC143C"
+    },
+    {
+        "color": "cyan",
+        "rgb": "#00FFFF"
+    },
+    {
+        "color": "darkblue",
+        "rgb": "#00008B"
+    },
+    {
+        "color": "darkcyan",
+        "rgb": "#008B8B"
+    },
+    {
+        "color": "darkgoldenrod",
+        "rgb": "#B8860B"
+    },
+    {
+        "color": "darkgray",
+        "rgb": "#A9A9A9"
+    },
+    {
+        "color": "darkgrey",
+        "rgb": "#A9A9A9"
+    },
+    {
+        "color": "darkgreen",
+        "rgb": "#006400"
+    },
+    {
+        "color": "darkkhaki",
+        "rgb": "#BDB76B"
+    },
+    {
+        "color": "darkmagenta",
+        "rgb": "#8B008B"
+    },
+    {
+        "color": "darkolivegreen",
+        "rgb": "#556B2F"
+    },
+    {
+        "color": "darkorange",
+        "rgb": "#FF8C00"
+    },
+    {
+        "color": "darkorchid",
+        "rgb": "#9932CC"
+    },
+    {
+        "color": "darkred",
+        "rgb": "#8B0000"
+    },
+    {
+        "color": "darksalmon",
+        "rgb": "#E9967A"
+    },
+    {
+        "color": "darkseagreen",
+        "rgb": "#8FBC8F"
+    },
+    {
+        "color": "darkslateblue",
+        "rgb": "#483D8B"
+    },
+    {
+        "color": "darkslategray",
+        "rgb": "#2F4F4F"
+    },
+    {
+        "color": "darkslategrey",
+        "rgb": "#2F4F4F"
+    },
+    {
+        "color": "darkturquoise",
+        "rgb": "#00CED1"
+    },
+    {
+        "color": "darkviolet",
+        "rgb": "#9400D3"
+    },
+    {
+        "color": "deeppink",
+        "rgb": "#FF1493"
+    },
+    {
+        "color": "deepskyblue",
+        "rgb": "#00BFFF"
+    },
+    {
+        "color": "dimgray",
+        "rgb": "#696969"
+    },
+    {
+        "color": "dimgrey",
+        "rgb": "#696969"
+    },
+    {
+        "color": "dodgerblue",
+        "rgb": "#1E90FF"
+    },
+    {
+        "color": "firebrick",
+        "rgb": "#B22222"
+    },
+    {
+        "color": "floralwhite",
+        "rgb": "#FFFAF0"
+    },
+    {
+        "color": "forestgreen",
+        "rgb": "#228B22"
+    },
+    {
+        "color": "fuchsia",
+        "rgb": "#FF00FF"
+    },
+    {
+        "color": "gainsboro",
+        "rgb": "#DCDCDC"
+    },
+    {
+        "color": "ghostwhite",
+        "rgb": "#F8F8FF"
+    },
+    {
+        "color": "gold",
+        "rgb": "#FFD700"
+    },
+    {
+        "color": "goldenrod",
+        "rgb": "#DAA520"
+    },
+    {
+        "color": "gray",
+        "rgb": "#808080"
+    },
+    {
+        "color": "grey",
+        "rgb": "#808080"
+    },
+    {
+        "color": "green",
+        "rgb": "#008000"
+    },
+    {
+        "color": "greenyellow",
+        "rgb": "#ADFF2F"
+    },
+    {
+        "color": "honeydew",
+        "rgb": "#F0FFF0"
+    },
+    {
+        "color": "hotpink",
+        "rgb": "#FF69B4"
+    },
+    {
+        "color": "indianred",
+        "rgb": "#CD5C5C"
+    },
+    {
+        "color": "indigo",
+        "rgb": "#4B0082"
+    },
+    {
+        "color": "ivory",
+        "rgb": "#FFFFF0"
+    },
+    {
+        "color": "khaki",
+        "rgb": "#F0E68C"
+    },
+    {
+        "color": "lavender",
+        "rgb": "#E6E6FA"
+    },
+    {
+        "color": "lavenderblush",
+        "rgb": "#FFF0F5"
+    },
+    {
+        "color": "lawngreen",
+        "rgb": "#7CFC00"
+    },
+    {
+        "color": "lemonchiffon",
+        "rgb": "#FFFACD"
+    },
+    {
+        "color": "lightblue",
+        "rgb": "#ADD8E6"
+    },
+    {
+        "color": "lightcoral",
+        "rgb": "#F08080"
+    },
+    {
+        "color": "lightcyan",
+        "rgb": "#E0FFFF"
+    },
+    {
+        "color": "lightgoldenrodyellow",
+        "rgb": "#FAFAD2"
+    },
+    {
+        "color": "lightgray",
+        "rgb": "#D3D3D3"
+    },
+    {
+        "color": "lightgrey",
+        "rgb": "#D3D3D3"
+    },
+    {
+        "color": "lightgreen",
+        "rgb": "#90EE90"
+    },
+    {
+        "color": "lightpink",
+        "rgb": "#FFB6C1"
+    },
+    {
+        "color": "lightsalmon",
+        "rgb": "#FFA07A"
+    },
+    {
+        "color": "lightseagreen",
+        "rgb": "#20B2AA"
+    },
+    {
+        "color": "lightskyblue",
+        "rgb": "#87CEFA"
+    },
+    {
+        "color": "lightslategray",
+        "rgb": "#778899"
+    },
+    {
+        "color": "lightslategrey",
+        "rgb": "#778899"
+    },
+    {
+        "color": "lightsteelblue",
+        "rgb": "#B0C4DE"
+    },
+    {
+        "color": "lightyellow",
+        "rgb": "#FFFFE0"
+    },
+    {
+        "color": "lime",
+        "rgb": "#00FF00"
+    },
+    {
+        "color": "limegreen",
+        "rgb": "#32CD32"
+    },
+    {
+        "color": "linen",
+        "rgb": "#FAF0E6"
+    },
+    {
+        "color": "magenta",
+        "rgb": "#FF00FF"
+    },
+    {
+        "color": "maroon",
+        "rgb": "#800000"
+    },
+    {
+        "color": "mediumaquamarine",
+        "rgb": "#66CDAA"
+    },
+    {
+        "color": "mediumblue",
+        "rgb": "#0000CD"
+    },
+    {
+        "color": "mediumorchid",
+        "rgb": "#BA55D3"
+    },
+    {
+        "color": "mediumpurple",
+        "rgb": "#9370DB"
+    },
+    {
+        "color": "mediumseagreen",
+        "rgb": "#3CB371"
+    },
+    {
+        "color": "mediumslateblue",
+        "rgb": "#7B68EE"
+    },
+    {
+        "color": "mediumspringgreen",
+        "rgb": "#00FA9A"
+    },
+    {
+        "color": "mediumturquoise",
+        "rgb": "#48D1CC"
+    },
+    {
+        "color": "mediumvioletred",
+        "rgb": "#C71585"
+    },
+    {
+        "color": "midnightblue",
+        "rgb": "#191970"
+    },
+    {
+        "color": "mintcream",
+        "rgb": "#F5FFFA"
+    },
+    {
+        "color": "mistyrose",
+        "rgb": "#FFE4E1"
+    },
+    {
+        "color": "moccasin",
+        "rgb": "#FFE4B5"
+    },
+    {
+        "color": "navajowhite",
+        "rgb": "#FFDEAD"
+    },
+    {
+        "color": "navy",
+        "rgb": "#000080"
+    },
+    {
+        "color": "oldlace",
+        "rgb": "#FDF5E6"
+    },
+    {
+        "color": "olive",
+        "rgb": "#808000"
+    },
+    {
+        "color": "olivedrab",
+        "rgb": "#6B8E23"
+    },
+    {
+        "color": "orange",
+        "rgb": "#FFA500"
+    },
+    {
+        "color": "orangered",
+        "rgb": "#FF4500"
+    },
+    {
+        "color": "orchid",
+        "rgb": "#DA70D6"
+    },
+    {
+        "color": "palegoldenrod",
+        "rgb": "#EEE8AA"
+    },
+    {
+        "color": "palegreen",
+        "rgb": "#98FB98"
+    },
+    {
+        "color": "paleturquoise",
+        "rgb": "#AFEEEE"
+    },
+    {
+        "color": "palevioletred",
+        "rgb": "#DB7093"
+    },
+    {
+        "color": "papayawhip",
+        "rgb": "#FFEFD5"
+    },
+    {
+        "color": "peachpuff",
+        "rgb": "#FFDAB9"
+    },
+    {
+        "color": "peru",
+        "rgb": "#CD853F"
+    },
+    {
+        "color": "pink",
+        "rgb": "#FFC0CB"
+    },
+    {
+        "color": "plum",
+        "rgb": "#DDA0DD"
+    },
+    {
+        "color": "powderblue",
+        "rgb": "#B0E0E6"
+    },
+    {
+        "color": "purple",
+        "rgb": "#800080"
+    },
+    {
+        "color": "rebeccapurple",
+        "rgb": "#663399"
+    },
+    {
+        "color": "red",
+        "rgb": "#FF0000"
+    },
+    {
+        "color": "rosybrown",
+        "rgb": "#BC8F8F"
+    },
+    {
+        "color": "royalblue",
+        "rgb": "#4169E1"
+    },
+    {
+        "color": "saddlebrown",
+        "rgb": "#8B4513"
+    },
+    {
+        "color": "salmon",
+        "rgb": "#FA8072"
+    },
+    {
+        "color": "sandybrown",
+        "rgb": "#F4A460"
+    },
+    {
+        "color": "seagreen",
+        "rgb": "#2E8B57"
+    },
+    {
+        "color": "seashell",
+        "rgb": "#FFF5EE"
+    },
+    {
+        "color": "sienna",
+        "rgb": "#A0522D"
+    },
+    {
+        "color": "silver",
+        "rgb": "#C0C0C0"
+    },
+    {
+        "color": "skyblue",
+        "rgb": "#87CEEB"
+    },
+    {
+        "color": "slateblue",
+        "rgb": "#6A5ACD"
+    },
+    {
+        "color": "slategray",
+        "rgb": "#708090"
+    },
+    {
+        "color": "slategrey",
+        "rgb": "#708090"
+    },
+    {
+        "color": "snow",
+        "rgb": "#FFFAFA"
+    },
+    {
+        "color": "springgreen",
+        "rgb": "#00FF7F"
+    },
+    {
+        "color": "steelblue",
+        "rgb": "#4682B4"
+    },
+    {
+        "color": "tan",
+        "rgb": "#D2B48C"
+    },
+    {
+        "color": "teal",
+        "rgb": "#008080"
+    },
+    {
+        "color": "thistle",
+        "rgb": "#D8BFD8"
+    },
+    {
+        "color": "tomato",
+        "rgb": "#FF6347"
+    },
+    {
+        "color": "turquoise",
+        "rgb": "#40E0D0"
+    },
+    {
+        "color": "violet",
+        "rgb": "#EE82EE"
+    },
+    {
+        "color": "wheat",
+        "rgb": "#F5DEB3"
+    },
+    {
+        "color": "white",
+        "rgb": "#FFFFFF"
+    },
+    {
+        "color": "whitesmoke",
+        "rgb": "#F5F5F5"
+    },
+    {
+        "color": "yellow",
+        "rgb": "#FFFF00"
+    },
+    {
+        "color": "yellowgreen",
+        "rgb": "#9ACD32"
+    }
+]
