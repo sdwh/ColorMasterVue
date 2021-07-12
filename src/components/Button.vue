@@ -5,6 +5,11 @@
   <p>
     {{ buttonClickMsg }}
   </p>
+
+  <template v-if="correct">
+    <div class="splitline"/>
+    <button class="nextBtn" v-on:click="next">Next</button>
+  </template>
 </template>
 
 <script>
@@ -15,6 +20,7 @@ export default {
   data() {
     return {
       message: '',
+      correct: false
     }
   },
   props: {
@@ -32,9 +38,22 @@ export default {
   },
   methods: {
     check(e) {
-      this.message = e == this.option ? 
-        `${e} is Correct 🎨` : `${e} isn't Correct ❌`
-    }    
+      if (e == this.option)
+      {
+        this.message = `${e} is Correct 🎨`
+        this.correct = true
+      }
+      else
+      {
+        this.message = `${e} isn't Correct ❌`
+      }
+    },
+
+    next(){
+      this.message = ""
+      this.correct = false
+      this.$emit('update')
+    }
   }  
 };
 </script>
@@ -63,5 +82,11 @@ export default {
 
 .button:hover{
   cursor: pointer;
+}
+
+
+.nextBtn{
+  padding: 10px;
+  font-size: 1.5rem;
 }
 </style>

@@ -5,11 +5,11 @@
     <div class="splitline" />
 
     <div ref="buttonGroups">
-      <Button :option="colorname" :jamming="jamming" />
+      <Button :option="colorname" :jamming="jamming" @update="update" />
     </div>
 
-    <div class="splitline"/>
-    <button class="nextBtn" v-on:click="update">Next</button>
+    <!-- <div class="splitline"/>
+    <button class="nextBtn" v-on:click="update">Next</button> -->
   </div>
 </template>
 
