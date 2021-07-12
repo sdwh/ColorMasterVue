@@ -1,29 +1,31 @@
 <template>
-  <p>
+  <p class="feedbackMsg">
     {{ buttonClickMsg }}
+    <template v-if="correct">
+        <button class="nextBtn" v-on:click="next">Next</button>
+      <div style="margin-bottom: 10px"></div>
+    </template>
   </p>
 
-  <template v-if="correct">
-    <div class="splitline"/>
-    <div style="margin-bottom: 10px">
-      <button class="nextBtn" v-on:click="next">Next</button>
-    </div>
-  </template>
 
-    <div class="button" v-for="color in jamming" v-bind:key="color"
-  v-on:click="check(color)">{{ color }}</div>
+  <Btn v-for="color in jamming" v-bind:key="color" :color="color" @updatemsg="updatemsg"></Btn>
 
 </template>
 
 <script>
+import Btn from "@/components/Btn.vue";
 
 export default {
   name: "ColorBlock",
+  emits: ["update"],
   data() {
     return {
       message: '',
       correct: false
     }
+  },
+  components: {
+    Btn
   },
   props: {
     option: String,
@@ -39,15 +41,16 @@ export default {
     }
   },
   methods: {
-    check(e) {
+    updatemsg(e) {
       if (e == this.option)
       {
-        this.message = `${e} is correct 🎨`
+        this.message = `${e} 🎨`
         this.correct = true
       }
       else
       {
-        this.message = `${e} isn't correct ❌`
+        this.message = ''
+        this.correct = false
       }
     },
 
@@ -56,7 +59,7 @@ export default {
       this.correct = false
       this.$emit('update')
     }
-  }  
+  }
 };
 </script>
 
@@ -88,6 +91,10 @@ export default {
 
 .nextBtn{
   padding: 10px;
+  font-size: 1.5rem;
+}
+
+.feedbackMsg{
   font-size: 1.5rem;
 }
 </style>
