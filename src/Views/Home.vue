@@ -25,6 +25,7 @@ function generateOption(){
   let jamming = _.shuffle(json).map(i => i.color).slice(0, 3);
   let colorname = json[randomValue].color
   jamming.unshift(colorname)
+  jamming = _.sortedUniq(jamming)
 
   return {
     'jamming' : jamming, 

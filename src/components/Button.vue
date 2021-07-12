@@ -1,19 +1,21 @@
 <template>
-    <div class="button" v-for="color in jamming" v-bind:key="color"
-  v-on:click="check(color)">{{ color }}</div>
-
   <p>
     {{ buttonClickMsg }}
   </p>
 
   <template v-if="correct">
     <div class="splitline"/>
-    <button class="nextBtn" v-on:click="next">Next</button>
+    <div style="margin-bottom: 10px">
+      <button class="nextBtn" v-on:click="next">Next</button>
+    </div>
   </template>
+
+    <div class="button" v-for="color in jamming" v-bind:key="color"
+  v-on:click="check(color)">{{ color }}</div>
+
 </template>
 
 <script>
-// import _ from "lodash";
 
 export default {
   name: "ColorBlock",
@@ -40,12 +42,12 @@ export default {
     check(e) {
       if (e == this.option)
       {
-        this.message = `${e} is Correct 🎨`
+        this.message = `${e} is correct 🎨`
         this.correct = true
       }
       else
       {
-        this.message = `${e} isn't Correct ❌`
+        this.message = `${e} isn't correct ❌`
       }
     },
 
@@ -65,7 +67,7 @@ export default {
   padding: 0.3rem;
   font-size: 2rem;
   border: 1px black solid;
-  background-color: lightgrey;
+  background-color: ivory;
   color: black;
   border-radius: 3px;
   display: inline-block;
@@ -83,7 +85,6 @@ export default {
 .button:hover{
   cursor: pointer;
 }
-
 
 .nextBtn{
   padding: 10px;
